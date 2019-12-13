@@ -23,7 +23,7 @@ def get_filters():
     while True:
       city = input("\nWhich city would you like to filter by? New York City, Chicago or Washington?\n").lower()
       if city not in ('new york city', 'chicago', 'washington'):
-        print("Invalid City Selected. Try again!")
+        print("Invalid City Selected. Try again! Choose New York, Chicago or Washington")
         continue
       else:
         break
@@ -33,7 +33,7 @@ def get_filters():
     while True:
       month = input("\nWhich month would you like to filter by? January, February, March, April, May, June or type 'all' if you do not have any preference?\n").lower()
       if month not in ('january', 'february', 'march', 'april', 'may', 'june', 'all'):
-        print("Invalid Month Selected. Try again.")
+        print("Invalid Month Selected. Try again. Choose January, February, March, April, May or June")
         continue
       else:
         break
