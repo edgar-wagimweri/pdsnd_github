@@ -9,7 +9,7 @@ Explore US Bikeshare Data
 ### Description
 Use Python to analyze and perform statistical analysis on datasets containing data on bikesharing in a some US states. The student had to write code to import the data and answer questions about it by computing descriptive statistics as well as write a script that accepts input to create an interactive experience in the terminal.
 
-With the created CLI program, the user is able to explore the database and retrieve statistical information, filter the information by city, month and weekday. The user is can also choose to view raw data related to specified parameters.
+With the created CLI program, the user is able to explore the database and retrieve statistical information, filter the information by city, month and weekday. The user can also choose to view raw data related to specified parameters.
 
 
 ### Files used
